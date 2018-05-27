@@ -7,7 +7,8 @@
 
 get_header('homepage'); ?>
 
-    <div class="screen">
+    <div class="screen" id="homepage-content">
+        <?php the_content(); ?>
     </div>
 
 <?php get_footer();

@@ -11,9 +11,7 @@
 <body <?php body_class(); ?>>
     <div class="wrapper homepage">
         <header class="screen">
-            <div id="logo">
-                <img src="wp-content/themes/webartimmarket/images/logo-text.png" alt="Хобби Штучки" />
-            </div>
+            <div id="logo"></div>
             <div id="header-main">
                 <h1>рукоделие и творчество</h1>
                     <hr />
@@ -22,10 +20,13 @@
             </div>
             <nav id="top-menu">
                 <div class="phone"><i class="fa fa-phone"></i>+7 (921) 944 73 98</div>
+                <div class="email"><i class="fa fa-envelope"></i>info@hobbyshtuchki.ru</div>
                 <ul class="menu">
                     <li><a href="#">вход</a></li><!--
                     --><li><a href="#">регистрация</a></li><!--
                     --><li class="fa fa-shopping-cart"><a href="#"></a></li>
                 </ul>
             </nav>
+            <button id="header-arrow" onclick="scrollToElement('#homepage-content')"></button>
+            <div id="sky-1"></div><div id="sky-2"></div><div id="sky-3"></div>
         </header>

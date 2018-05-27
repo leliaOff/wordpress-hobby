@@ -159,16 +159,13 @@ input[type="text"]::placeholder { color: #503a1b; font-weight: 100; }
 
 
 #logo {
-    width: 617px;
+    width: 600px;
     height: 300px;
     position: absolute;
     top: 30px;
     left: 50px;
-}
-
-#logo img {
-    width: 100%;
-    height: auto;
+    background-image: url('images/logo-600.png');
+    background-repeat: no-repeat;
 }
 
 #header-main {
@@ -232,20 +229,27 @@ input[type="text"]::placeholder { color: #503a1b; font-weight: 100; }
 
 #top-menu .phone {
     margin: 0 40px 0 0;
-    padding: 6px 0 0;
+    padding: 16px 0 13px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
+}
+
+#top-menu .email {
+    margin: 0 40px 0 0;
+    padding: 15px 0 14px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #top-menu i {
     font-size: 28px;
-    vertical-align: middle;
-    margin: 0 20px 0;
+    vertical-align: top;
+    margin: 2px 20px 0;
 }
 
 #top-menu .menu {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 #top-menu .menu li {
@@ -288,4 +292,46 @@ input[type="text"]::placeholder { color: #503a1b; font-weight: 100; }
 
 #top-menu .fa-shopping-cart a:hover {
     border: none;
+}
+
+#header-arrow {
+    width: 150px;
+    height: 150px;
+    background: none;
+    background-image: url('images/arrow-150.png');
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin: 0 0 0 -75px;
+    cursor: pointer;
+}
+
+#sky-1 {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    width: 400px;
+    height: 200px;
+    background-image: url('images/sky-1-400.png');
+    background-repeat: no-repeat;
+}
+#sky-2 {
+    position: absolute;
+    bottom: 230px;
+    right: 0px;
+    width: 400px;
+    height: 200px;
+    background-image: url('images/sky-2-400.png');
+    background-repeat: no-repeat;
+}
+#sky-3 {
+    position: absolute;
+    bottom: 80px;
+    right: 340px;
+    width: 400px;
+    height: 200px;
+    background-image: url('images/sky-3-400.png');
+    background-repeat: no-repeat;
 }
