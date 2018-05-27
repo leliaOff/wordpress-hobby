@@ -1,0 +1,15 @@
+.help-text {
+    line-height: 1;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.has-error {
+    border-color: #a94442 !important;
+}
+
+.error-msg span {
+    color: #a94442;
+    font-size: 12px;
+}

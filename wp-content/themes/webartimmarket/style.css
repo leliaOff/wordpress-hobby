@@ -1,0 +1,291 @@
+/*   
+    Theme Name: Webartim Market
+    Author: Elena Sirotkina
+    Author URI: http://webart.im/
+    Version: 1.0
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: Roboto;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: 400;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	    -ms-text-size-adjust: 100%;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	background: #ffffff;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+fieldset {
+	min-width: inherit;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	quotes: none;
+}
+
+a {
+    color: #503a1b;
+}
+
+a img {
+	border: 0;
+}
+
+img {
+    border: 0 !important;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+p {
+    margin: 20px 0 20px 40px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+thead td {
+    text-align: center;
+    font-weight: 600;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #4D759C;
+}
+
+input[type="text"]::-moz-placeholder { color: #503a1b; font-weight: 100; }
+input[type="text"]::-webkit-input-placeholder { color: #503a1b; font-weight: 100; }
+input[type="text"]:-ms-input-placeholder { color: #503a1b; font-weight: 100; }
+input[type="text"]::-ms-input-placeholder { color: #503a1b; font-weight: 100; }
+input[type="text"]::placeholder { color: #503a1b; font-weight: 100; }
+
+.screen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.homepage header {
+    background-color: #4D759C;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.25);
+       -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.25);
+            box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.25);
+}
+
+
+#logo {
+    width: 617px;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+}
+
+#header-main {
+    width: 700px;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    margin: 0 0 0 -350px;
+}
+
+#header-main h1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #503a1b;
+}
+
+#header-main h2 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #503a1b;
+}
+
+#header-main hr {
+    border: none;
+    border-top: 3px solid #503a1b;
+    margin: 20px 150px;
+}
+
+#searchform {
+    padding: 0 42px;
+    margin: 50px 0 0;
+}
+
+#searchform #s {
+    font-size: 20px;
+    color: #503a1b;
+    padding: 15px 25px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 2px dashed #503a1b;
+    border-radius: 20px;
+    background: none;
+    width: 100%;
+}
+
+#top-menu {
+    text-align: right;
+    padding: 20px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 20px;
+    color: #503a1b;
+}
+
+#top-menu .phone {
+    margin: 0 40px 0 0;
+    padding: 6px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top-menu i {
+    font-size: 28px;
+    vertical-align: middle;
+    margin: 0 20px 0;
+}
+
+#top-menu .menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top-menu .menu li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top-menu .menu a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 15px;
+}
+
+#top-menu .menu a:hover {
+    border-bottom: 2px dashed #503a1b;
+}
+
+#top-menu .fa-shopping-cart {
+    border: 2px dashed #503a1b;
+    padding: 12px 6px 5px 5px;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    text-align: center;
+    margin: 0 15px;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+
+#top-menu .fa-shopping-cart a {
+    padding: 0;
+    margin: 0;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#top-menu .fa-shopping-cart a:hover {
+    border: none;
+}
