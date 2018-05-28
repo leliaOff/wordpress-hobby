@@ -61,3 +61,24 @@ function register_menu() {
     // register_nav_menu( 'footer', 'Меню в подвале' );
     // register_nav_menu( 'phone_menu', 'Мобильное' );
 }
+
+//1-10 мало 11-50 достаточно 51- много
+function woocommerce_template_loop_product_title() {
+    echo '<h3 class="woocommerce-loop-product__title">' . get_the_title() . '</h3>';
+    echo '<div class="woocommerce-loop-product__balance">' . get_products_count() . '</div>';
+}
+
+add_action( 'woocommerce_single_product_summary', 'get_products_count', 25 );
+function get_products_count() {
+    global $product;
+    $count = $product->get_stock_quantity();
+    if($count == 0) {
+        return '<i class="count count-0"></i><label>нет в наличии</label>';
+    } elseif($count > 0 && $count < 11) {
+        return '<i class="count count-1"></i><label>в наличии: мало</label>';
+    } elseif($count > 10 && $count < 51) {
+        return '<i class="count count-11"></i><label>в наличии: достаточно</label>';
+    } else {
+        return '<i class="count count-51"></i><label>в наличии: много</label>';
+    }
+}

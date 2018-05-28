@@ -1,0 +1,11 @@
+2018-05-28T15:08:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_stock_quantity() in C:\OpenServer\domains\hobby\wp-content\themes\webartimmarket\functions.php:68
+Stack trace:
+#0 C:\OpenServer\domains\hobby\wp-includes\class-wp-hook.php(286): woocommerce_template_loop_product_title('')
+#1 C:\OpenServer\domains\hobby\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 C:\OpenServer\domains\hobby\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\OpenServer\domains\hobby\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action('woocommerce_sho...')
+#4 C:\OpenServer\domains\hobby\wp-includes\template.php(690): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\hobby\wp-content\plugins\woocommerce\includes\wc-core-functions.php(178): load_template('C:\\OpenServer\\d...', false)
+#6 C:\OpenServer\domains\hobby\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(617): wc_get_template_part('content', 'product')
+#7 C:\OpenServer\domains\hobby\wp-cont
+
