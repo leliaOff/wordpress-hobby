@@ -56,10 +56,14 @@ class menuWalker extends Walker_Nav_Menu {
 
 add_action( 'after_setup_theme', 'register_menu' );
 function register_menu() {
-    // register_nav_menu( 'header_top', 'Меню над шапкой' );
-    // register_nav_menu( 'header_bottom', 'Меню под шапкой' );
-    // register_nav_menu( 'footer', 'Меню в подвале' );
-    // register_nav_menu( 'phone_menu', 'Мобильное' );
+    register_nav_menu( 'auth_header_top', 'Меню над шапкой после входа' );
+    register_nav_menu( 'header_top', 'Меню над шапкой' );
+    register_nav_menu( 'header', 'Меню в шапке' );
+    register_nav_menu( 'footer_1', 'Меню в подвале 1' );
+    register_nav_menu( 'footer_2', 'Меню в подвале 2' );
+    register_nav_menu( 'footer_3', 'Меню в подвале 3' );
+    register_nav_menu( 'footer_4', 'Меню в подвале 4' );
+    register_nav_menu( 'phone_menu', 'Мобильное' );
 }
 
 //1-10 мало 11-50 достаточно 51- много

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-05-24 05:29:21+0000\n"
+"PO-Revision-Date: 2018-05-28 10:46:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -137,6 +137,10 @@ msgstr "Загрузить расчёт"
 #: includes/class-wc-privacy-exporters.php:321
 msgid "User email"
 msgstr "Адрес электронной почты пользователя"
+
+#: includes/class-wc-privacy-exporters.php:387
+msgid "Token"
+msgstr "Токен"
 
 #: includes/class-wc-privacy-erasers.php:339
 msgid "Personal data removed."
@@ -328,6 +332,17 @@ msgstr "Похоже, ваш магазин не использует защищ
 msgctxt "User role"
 msgid "Customer"
 msgstr "Клиент"
+
+#. translators: user role
+#: includes/class-wc-install.php:858
+msgctxt "User role"
+msgid "Shop manager"
+msgstr "Менеджер магазина"
+
+#. Translators: %s Prop name.
+#: includes/class-wc-privacy-erasers.php:82
+msgid "Removed customer \"%s\""
+msgstr "Удаленный клиент \"%s\""
 
 #: includes/admin/views/html-admin-page-status-report.php:672
 msgid "WooCommerce pages"

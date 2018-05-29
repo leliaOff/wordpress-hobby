@@ -11,22 +11,33 @@
 <body <?php body_class(); ?>>
     <div class="wrapper homepage">
         <header class="screen">
+
             <div id="logo"></div>
+            
             <div id="header-main">
                 <h1>рукоделие и творчество</h1>
                     <hr />
                 <h2>мишки Тедди и куклы ручной работы</h2>
                 <?php get_search_form(); ?>
             </div>
+
             <nav id="top-menu">
                 <div class="phone"><i class="fa fa-phone"></i>+7 (921) 944 73 98</div>
                 <div class="email"><i class="fa fa-envelope"></i>info@hobbyshtuchki.ru</div>
-                <ul class="menu">
-                    <li><a href="#">вход</a></li><!--
-                    --><li><a href="#">регистрация</a></li><!--
-                    --><li class="fa fa-shopping-cart"><a href="#"></a></li>
-                </ul>
+                
+                <?php if(is_user_logged_in()): ?>
+                    <?php wp_nav_menu(['theme_location' => 'auth_header_top', 'container_class' => 'menu-container', 'link_before' => '<span>', 'link_after' => '</span>']) ?>
+                <?php else: ?>
+                    <?php wp_nav_menu(['theme_location' => 'header_top', 'container_class' => 'menu-container', 'link_before' => '<span>', 'link_after' => '</span>']) ?>
+                <?php endif; ?>
+
             </nav>
+
+            <nav id="header-menu">
+                <?php wp_nav_menu(['theme_location' => 'header', 'container_class' => 'menu-container']) ?>
+            </nav>
+
             <button id="header-arrow" onclick="scrollToElement('#homepage-content')"></button>
             <div id="sky-1"></div><div id="sky-2"></div><div id="sky-3"></div>
+
         </header>

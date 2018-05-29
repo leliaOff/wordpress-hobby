@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-05-11 04:25:27+0000\n"
+"PO-Revision-Date: 2018-05-28 10:49:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,21 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#. translators: %1$s expands to the requested indexable type
+#: admin/services/class-indexable.php:28
+msgid "Unknown type %1$s"
+msgstr "Неизвестный тип %1$s"
+
+#. translators: %1$s expands to the requested indexable type. %2$s expands to
+#. the request id
+#: admin/services/class-indexable.php:40
+msgid "Object %1$s with id %2$s not found"
+msgstr "Объект %1$s с id %2$s не найден"
+
+#: admin/banner/class-admin-banner-sidebar.php:331
+msgid "Get the FREE SEO for beginners training course and learn the SEO basics to make your site rank higher."
+msgstr "Получите БЕСПЛАТНЫЙ SEO курс начинающих и изучите основы SEO, чтобы повысить рейтинг вашего сайта."
 
 #. translators: %1$s expands to 'Yoast SEO Premium'.
 #: admin/config-ui/components/class-component-configuration-choices.php:67
@@ -2020,10 +2035,6 @@ msgstr "Удалить изображение"
 msgid "The meta description contains the focus keyword."
 msgstr "Мета-описание содержит фокусное ключевое слово."
 
-#: languages/yoast-seo-js.php:14
-msgid "ok"
-msgstr "ok"
-
 #: admin/views/tool-import-export.php:88
 msgid "Export settings"
 msgstr "Экспорт настроек"
@@ -2055,6 +2066,10 @@ msgstr "Заголовок SEO хорошей длины."
 #: languages/yoast-components.php:74
 msgid "company logo image preview"
 msgstr "Предварительный просмотр логотипа компании"
+
+#: languages/yoast-seo-js.php:14
+msgid "ok"
+msgstr "OK"
 
 #. translators: %1$s expands to Yoast SEO.
 #: admin/config-ui/fields/class-field-success-message.php:31
